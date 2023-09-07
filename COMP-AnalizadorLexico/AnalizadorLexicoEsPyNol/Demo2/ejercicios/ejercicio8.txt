@@ -1,0 +1,11 @@
+# 8. Verificar si un número es primo
+numero = 17
+es_primo = Verdadero
+para i en rango(2, numero):
+    si numero % i == 0:
+        es_primo = Falso
+        romper
+si es_primo:
+    imprimir(numero, "es primo")
+sino:
+    imprimir(numero, "no es primo")

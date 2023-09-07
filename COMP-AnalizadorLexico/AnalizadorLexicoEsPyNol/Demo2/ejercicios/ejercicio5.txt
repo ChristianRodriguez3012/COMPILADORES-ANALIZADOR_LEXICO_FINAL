@@ -1,0 +1,8 @@
+#5. Ejemplo de uso de listas en Python:
+numeros = [1, 2, 3, 4, 5]
+para numero en numeros:
+    si numero % 2 == 0:
+        imprimir(numero, "es par")
+    sino:
+        imprimir(numero, "es impar")
+

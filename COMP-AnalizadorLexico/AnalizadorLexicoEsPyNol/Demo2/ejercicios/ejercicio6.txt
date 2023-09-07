@@ -1,0 +1,14 @@
+# 6. Ejemplo de una clase en Python:
+# NOTA: CABE DESTACAR QUE 'SELF' AUN NO HA SIDO INCLUIDO EN EL ANALIZADOR LEXICO
+
+clase Persona:
+    definir __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    definir saludar(self):
+        imprimir("Hola, soy", self.nombre, "y tengo", self.edad, "años")
+
+# Crear una instancia de la clase Persona
+persona1 = Persona("Juan", 30)
+persona1.saludar()

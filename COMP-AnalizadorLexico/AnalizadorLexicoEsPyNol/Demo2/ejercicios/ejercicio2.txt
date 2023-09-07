@@ -1,0 +1,5 @@
+#2. Ejemplo de un bucle para que suma los números del 1 al 5:
+suma = 0
+para i en rango(1, 6):
+    suma += i
+imprimir("La suma es:", suma)

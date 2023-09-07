@@ -1,0 +1,6 @@
+#1. Ejemplo de una asignación de variable y una condición:
+numero = 42
+si numero > 30:
+    imprimir("El número es mayor que 30")
+sino:
+    imprimir("El número no es mayor que 30")

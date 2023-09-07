@@ -1,0 +1,10 @@
+#9. Función recursiva para calcular el factorial de un número
+def calcular_factorial(n):
+    si n == 0:
+        retornar 1
+    sino:
+        retornar n * calcular_factorial(n - 1)
+
+numero = 5
+resultado = calcular_factorial(numero)
+imprimir("El factorial de", numero, "es", resultado)

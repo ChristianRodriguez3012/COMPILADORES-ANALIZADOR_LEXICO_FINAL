@@ -1,0 +1,5 @@
+#7. Calcular el área de un círculo
+radio = 5
+pi = 3.14159
+area = pi * radio * radio
+imprimir("El área del círculo es:", area)
